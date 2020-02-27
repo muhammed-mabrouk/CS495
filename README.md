@@ -1,2 +1,2 @@
-# CS495-2
-design-web based
+# CS495
+design-web based application
