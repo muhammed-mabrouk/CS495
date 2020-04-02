@@ -4,7 +4,6 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using System.Data.SqlClient;
 
 public partial class studentname : System.Web.UI.Page
 {
@@ -14,7 +13,7 @@ public partial class studentname : System.Web.UI.Page
     }
     protected void Button1_Click(object sender, EventArgs e)
     {
-        // Create Connection Object
+        //Create Connection Object
         SqlConnection conn = new SqlConnection();
         conn.ConnectionString = "Data Source=(LocalDB)\\v11.0;AttachDbFilename=|DataDirectory|Database.mdf;Integrated Security=True";
 
@@ -50,3 +49,5 @@ public partial class studentname : System.Web.UI.Page
 
 
        
+
+    
